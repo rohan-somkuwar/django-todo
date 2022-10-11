@@ -16,7 +16,10 @@ activate virtual environment
 ```bash
 $ source env/bin/activate
 ```
-Once you have downloaded django, go to the cloned repo directory and run the following command
+install packages
+```bash
+$  pip install -r requirements.txt
+```
 
 ```bash
 $ python manage.py makemigrations
